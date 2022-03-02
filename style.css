@@ -406,6 +406,27 @@ p {
 #projects .project-item:hover .project-img img {
 	transform: scale(1.1);
 }
+
+.cta2 {
+	display: inline-block;
+	padding: 10px 30px;
+	color: white;
+	background-color: transparent;
+	border: 2px solid rgb(6, 154, 180);;
+	font-size: 2rem;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+	margin-top: 30px;
+	margin-left: 35px;
+	margin-right: 35px;
+	transition: 0.3s ease;
+	transition-property: background-color, color;
+}
+.cta2:hover {
+	color: white;
+	background-color: rgb(6, 154, 180);
+}
+
 /* End Projects section */
 
 /* About Section */
